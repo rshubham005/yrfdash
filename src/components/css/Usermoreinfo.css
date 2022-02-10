@@ -1,0 +1,63 @@
+.usermoreinfo
+{
+    padding: 10px 0px;
+    margin-left: -35px;
+}
+.basic
+{
+    padding: 10px;
+    margin: 10px 0px;
+}
+.basic .col-md-7 .map
+{
+    border-radius: 30px;
+    padding: 20px;
+    box-shadow: 0px 1px 4px 1px grey;
+}
+.location> h2
+{
+    color: #7D90B2;
+    font-weight: 700;
+    font-size: 25px;
+    padding: 10px;
+}
+.location>table>tr
+{
+    margin: 10px 0px;
+}
+.location >table >tr >.table-item:nth-child(odd)
+{
+    color:#21B8C7 ;
+    font-weight: 700;
+    padding: 5px 20px;
+}
+.location >table >tr >.table-item:nth-child(even)
+{
+    font-weight: 700;
+}
+.col-md-8
+{
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 0px 1px 4px 2px grey;
+    margin: 10px 0px;
+}
+.booking-details
+{
+    display: flex;
+    justify-content: space-between;
+    padding:10px;
+}
+.booking-details>h4
+{
+    color: #7D90B2;
+    font-weight: 700;
+    font-size: 25px;
+    padding: 10px;
+}
+.booking-details>h5
+{
+    font-weight: 700;
+    font-size: 18px;
+    padding: 10px;
+}

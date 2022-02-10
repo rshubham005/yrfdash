@@ -1,0 +1,250 @@
+.user-management
+{
+    padding: 10px 0px;
+    margin-left: -35px;
+}
+.head
+{
+    display: flex;
+    justify-content: space-between;
+}
+.head>div
+{
+    display: flex;
+}
+.head input
+{
+    border: none;
+    border-bottom: 1px solid gray;
+    border-radius: 5px;
+    font-size: 15px;
+    color: gray;
+    padding: 0px 10px;
+}
+.head>div>.btn
+{
+    padding: 5px 15px;
+    margin: 0px 10px;
+    height: 40px;
+}
+table
+{
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    margin: 10px 0px ;
+    padding: 10px;
+    background: #EEEFF9;
+}
+table .table-head
+{
+    background-color: rgb(46, 45, 88);
+    color: white;
+}
+table .table-head>tr>th
+{
+    color: white;
+    padding: 12px 0px;
+} 
+table .rewardname
+{
+    text-align: left;
+    margin-left: 40px;
+}
+table .description
+{
+    max-width:300px;
+    text-align:left;
+    padding:0px 10px;
+}
+table .table-row:hover
+{
+    
+    box-shadow: 0px 4px 4px rgba(113, 113, 113, 0.25);
+    background-color: rgba(28, 27, 59, 0.267);
+    border-radius: 18px;
+    color: rgb(66, 66, 66);
+}
+table .sno
+{
+    width: 70px;
+}
+table .sno:nth-child(even)
+{
+    cursor: pointer;
+}
+table .table-row
+{
+    display: table-row;
+    text-decoration: none;
+    color: gray;
+    font-size: 18px;
+    font-weight: 500;
+}
+table .table-row td
+{
+
+    padding: 10px;
+    margin: 10px 0px ;
+}
+table .edit
+{
+    padding: 0px 15px;
+}
+table .table-row .edit
+{
+    text-decoration: none;
+    color: gray;
+    font-size: 18px;
+    font-weight: 500;
+} 
+.model-content
+{
+    width: 750px;
+    min-height: 70vh;
+    background-color: white;
+    box-shadow: 0px 0px 6px 4px rgb(207, 207, 207);
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.model-content .cross
+{
+    display: flex;
+    justify-content: space-between;
+}
+.model-content .cross button
+{
+    width: 50px;
+    border-radius: 50%;
+    background-color:#7d90b2a1;
+}
+.model-content h3
+{
+    font-size: 22px;
+    font-weight: 700;
+    color: #7D90B2;
+    margin: 10px;
+}
+.model-content .pts
+{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 0px;
+    margin: 20px 0px;
+}
+.model-content .pts input
+{
+    outline: none;
+    border: none;
+    padding:0px 5px;
+    box-shadow: 0px 0px 4px 2px rgb(207, 207, 207);
+    border-radius: 10px;
+    background-color: #F2FAFF;
+}
+.model-content .pts h1
+{
+    font-size: 55px;
+    font-weight: 700;
+    color: #7D90B2;
+}
+.text
+{
+    padding: 20px;
+}
+.text textarea
+{
+    background-color: #F2FAFF;
+}
+.model-content button
+{
+    width: 50%;
+    border: none;
+    outline: none;
+    background-color: #7D90B2;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+.model-content2
+{
+    width: 650px;
+    min-height: 70vh;
+    background-color: white;
+    box-shadow: 0px 0px 4px 2px rgb(207, 207, 207);
+    border-radius: 10px;
+    padding: 10px 10%;
+    text-align: center;
+}
+.model-content2 .cross
+{
+    position: absolute;
+    width: 45px;
+    padding: 10px 5px;
+    border-radius: 50%;
+    right: 0;
+    top: 0;
+    background-color:#7d90b2a1;
+}
+.model-content2 h5
+{
+    font-size: 15px;
+    font-weight: 700;
+    color: #7D90B2;
+    padding: 5px 0px;
+    text-align: left;
+}
+.model-content2 input,textarea
+{
+    outline: none;
+    border: none;
+    padding:10px;
+    box-shadow: 0px 0px 6px 4px rgb(207, 207, 207);
+    border-radius: 10px;
+    background-color: #F2FAFF; 
+}
+.model-content2 .upload
+{
+    display: flex;
+}
+.model-content2 .upload div
+{
+    padding: 10px;
+    width: 50%;
+}
+.model-content2 .upload div .file
+{
+    height: 125px;
+    width: 100%;
+    padding:10px;
+    box-shadow: 0px 0px 4px 2px rgb(207, 207, 207);
+    border-radius: 10px;
+    background-color: #F2FAFF; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.model-content2 .upload div .file .plus-icon
+{
+    font-size: 65px;
+    color: white;
+    border-radius: 50%;
+    background-color: #7d90b298;
+}
+.model-content2 button
+{
+    width: 50%;
+    border: none;
+    outline: none;
+    background-color: #7D90B2;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    margin: 5px;
+}
+#banner-img
+{
+    display: none;
+}

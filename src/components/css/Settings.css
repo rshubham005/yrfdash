@@ -1,0 +1,112 @@
+.settings
+{
+    padding: 10px 0px;
+    margin-left: -35px;
+}
+.settings .head
+{
+    justify-content: flex-end;
+}
+.head button
+{
+    height: 40px;
+}
+.model-content .cross
+{
+    display: flex;
+    justify-content: space-between;
+}
+.model-content .cross button
+{
+    width: 50px;
+    border-radius: 50%;
+    background-color:#7d90b2a1;
+}
+.model-content h3
+{
+    font-size: 22px;
+    font-weight: 700;
+    color: #7D90B2;
+    margin: 10px;
+}
+.model-content .pts
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+    margin: 20px 0px;
+}
+.model-content input
+{
+    outline: none;
+    border: none;
+    padding: 5px;
+    box-shadow: 0px 0px 4px 2px rgb(207, 207, 207);
+    border-radius: 5px;
+    background-color: #F2FAFF;
+    width: 80%;
+}
+.model-content  div
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0px ;
+}
+.model-content div label
+{
+    padding: 0px 10px;
+    color: gray;
+}
+
+.model-content button
+{
+    width: 95%;
+    border: none;
+    outline: none;
+    background-color: #7D90B2;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+table
+{
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    margin: 10px 0px ;
+    padding: 20px;
+    background: #EEEFF9;
+}
+table .table-head
+{
+    background-color: rgb(46, 45, 88);
+    color: white;
+}
+table .table-head>tr>th
+{
+    color: white;
+    padding: 12px 0px;
+} 
+table .table-row:hover
+{
+    
+    box-shadow: 0px 4px 4px rgba(113, 113, 113, 0.25);
+    background-color: rgba(28, 27, 59, 0.267);
+    border-radius: 18px;
+}
+
+table .table-row
+{
+    display: table-row;
+    text-decoration: none;
+    color: gray;
+    font-size: 18px;
+    font-weight: 500;
+}
+table .table-row td
+{
+
+    padding: 10px 0px;
+    margin: 10px 0px ;
+}

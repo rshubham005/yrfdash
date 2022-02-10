@@ -1,0 +1,97 @@
+.actor-details
+{
+    padding: 10px 0px;
+    margin-left: -35px;
+}
+.actor-details h3
+{
+    color: gray;
+    font-weight: 700;
+}
+.title
+{
+    display: flex;
+    justify-content: space-between;
+}
+.title button
+{
+border: none;
+outline: none;
+background-color: #4b467c;
+color: white;
+padding: 5px 25px;
+border-radius: 10px;
+font-weight: 700;
+}
+.movie-listing
+{
+    margin-top:20px;
+    border-radius: 20px;
+    background: #EEEFF9;
+}
+table
+{
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    margin: 10px 0px ;
+    background: #EEEFF9;
+}
+table .table-head
+{
+    background-color: rgb(46, 45, 88);
+    color: white;
+}
+table .table-head>tr>th
+{
+    color: white;
+    padding: 12px 0px;
+} 
+table .table-row:hover
+{
+    
+    box-shadow: 0px 4px 4px rgba(113, 113, 113, 0.25);
+    /* background-color: rgba(28, 27, 59, 0.267); */
+    background-color: white;
+    border-radius: 18px;
+}
+
+table .table-row
+{
+    display: table-row;
+    text-decoration: none;
+    color: gray;
+    font-size: 18px;
+    font-weight: 500;
+}
+table .table-row .table-data
+{
+    text-align: center;
+}
+table .table-row td
+{
+
+    padding: 10px 0px;
+    margin: 10px 0px ;
+}
+.playing
+{
+    overflow: hidden;
+    width: 100%;
+    padding: 0;
+}
+table .table-row
+{
+    
+    display: table-row;
+    text-decoration: none;
+    color: gray;
+    font-size: 18px;
+    font-weight: 500;
+}
+.text
+{
+    color: gray;
+    font-size: 18px;
+    font-weight: 700;
+}

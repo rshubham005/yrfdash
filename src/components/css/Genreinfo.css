@@ -1,0 +1,26 @@
+.genreinfo
+{
+    padding: 10px 0px;
+    margin-left: -30px;
+}
+.contents
+{
+    box-shadow: 0px 1px 4px 2px rgba(113, 113, 113, 0.25);
+    padding: 15px 10px;
+    border-radius: 20px;
+}
+.title
+{
+    display: flex;
+    justify-content: space-between;
+}
+.title button
+{
+border: none;
+outline: none;
+background-color: #4b467c;
+color: white;
+padding: 5px 25px;
+border-radius: 10px;
+font-weight: 700;
+}

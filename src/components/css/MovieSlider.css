@@ -1,0 +1,11 @@
+.slider div
+{
+   display: flex;
+}
+.slider div img
+{
+   width: 255px;
+   height: 150px;
+   margin: 10px 0px;
+   border-radius: 20px;
+}
