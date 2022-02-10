@@ -1,0 +1,51 @@
+{
+  "name": "yrfdash",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@nivo/bar": "^0.74.0",
+    "@nivo/core": "^0.74.0",
+    "@nivo/pie": "^0.74.0",
+    "@testing-library/jest-dom": "^5.15.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "axios": "^0.24.0",
+    "chart.js": "^3.6.2",
+    "faker": "^5.5.3",
+    "firebase": "^9.6.1",
+    "google-map-react": "^2.1.10",
+    "leaflet": "^1.7.1",
+    "moment": "^2.29.1",
+    "powerbi-client-react": "^1.3.3",
+    "react": "^17.0.2",
+    "react-chartjs-2": "^4.0.0",
+    "react-csv": "^2.2.1",
+    "react-dom": "^17.0.2",
+    "react-dropzone": "^11.4.2",
+    "react-icons": "^4.3.1",
+    "react-leaflet": "^3.2.5",
+    "react-router-dom": "^6.0.2",
+    "react-scripts": "4.0.3",
+    "react-slick": "^0.28.1",
+    "reactjs-popup": "^2.0.5",
+    "simple-react-validator": "^1.6.1",
+    "web-vitals": "^1.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not op_mini all"
+  ]
+}
